@@ -1,0 +1,18 @@
+{
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm index.html",
+    "postcss": "postcss --use autoprefixer -o main.css css/*.css"
+  },
+  "devDependencies": {
+    "postcss": "^8.4.16",
+    "postcss-cli": "^10.0.0",
+    "postcss-import": "^14.1.0"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.4.8",
+    "grunt": "^1.5.3",
+    "postcss-nested": "^5.0.6"
+  }
+}
